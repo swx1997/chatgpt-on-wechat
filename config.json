@@ -1,9 +1,9 @@
 {
   "open_ai_api_key": "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",                          # 填入上面创建的 OpenAI API KEY
   "model": "gpt-3.5-turbo",                                   # 模型名称。当use_azure_chatgpt为true时，其名称为Azure上model deployment名称
-  "proxy": "127.0.0.1:7890",                                  # 代理客户端的ip和端口
-  "single_chat_prefix": ["bot", "@bot"],                      # 私聊时文本需要包含该前缀才能触发机器人回复
-  "single_chat_reply_prefix": "[bot] ",                       # 私聊时自动回复的前缀，用于区分真人
+                              # 代理客户端的ip和端口
+  "single_chat_prefix": ["", "@小圈儿"],                      # 私聊时文本需要包含该前缀才能触发机器人回复
+  "single_chat_reply_prefix": "[薇薇] ",                       # 私聊时自动回复的前缀，用于区分真人
   "group_chat_prefix": ["@bot"],                              # 群聊时包含该前缀则会触发机器人回复
   "group_name_white_list": ["ChatGPT测试群", "ChatGPT测试群2"], # 开启自动回复的群名称列表
   "group_chat_in_one_session": ["ChatGPT测试群"],              # 支持会话上下文共享的群名称  
